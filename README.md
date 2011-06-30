@@ -1,14 +1,18 @@
+##staticRack
+
 staticRack is a simple template for easily building static sites that can be deployed to Heroku. The config.ru file can be used to customize this setup and expose further subdomains.
 
-The sassycoffee branch has the files setup for development with Sass and CoffeeScript. 
+The `sassycoffee` branch has the files setup for development with Sass and CoffeeScript. 
 
-To install the compass gem:
+The `sinatra` branch has a Sinatra-backed implementation. `sassycoffee` will build against `sinatra` in the future.
+
+#To install the compass gem:
 
 gem install compass
 
 (use RVM if you aren't already)
 
-To install CoffeeScript:
+#To install CoffeeScript:
 
 Download and install [node.js](https://github.com/joyent/node) or use Brew:
 
@@ -18,7 +22,7 @@ Then, install npm, the node package manager:
 
 curl http://npmjs.org/install.sh | sh
 
-Finally, install coffeescript:
+#Finally, install coffeescript:
 
 npm install -g coffee-script
 
